@@ -26,5 +26,9 @@ LC_ALL=C.UTF-8
     conda config --add channels defaults
     conda config --add channels conda-forge
     conda config --add channels bioconda
+    
+    cd /bin
+    mkdir soapdenovotrans
+    cd soapdenovotrans
  
 conda install -c bioconda soapdenovo-trans 
